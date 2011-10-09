@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2010/MacPorts 2010_4)
+Capacity: max_strings=500000, hash_size=500000, hash_prime=425003
+The top-level auxiliary file: arm2011merged.aux
+The style file: abbrv.bst
+Database file #1: arm2011.bib
+Repeated entry---line 935 of file arm2011.bib
+ : @inproceedings{cheng2009
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1563 of file arm2011.bib
+ : @article{Garlan2004
+ :                    ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "javacv" isn't style-file defined
+--line 4398 of file arm2011.bib
+Warning--empty year in Oreizy
+You've used 14 entries,
+            2118 wiz_defined-function locations,
+            586 strings with 6973 characters,
+and the built_in function-call counts, 5868 in all, are:
+= -- 548
+> -- 399
+< -- 8
++ -- 159
+- -- 144
+* -- 448
+:= -- 1001
+add.period$ -- 44
+call.type$ -- 14
+change.case$ -- 114
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 199
+empty$ -- 360
+format.name$ -- 144
+if$ -- 1197
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 12
+newline$ -- 72
+num.names$ -- 28
+pop$ -- 126
+preamble$ -- 1
+purify$ -- 100
+quote$ -- 0
+skip$ -- 143
+stack$ -- 0
+substring$ -- 236
+swap$ -- 57
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 56
+warning$ -- 1
+while$ -- 49
+width$ -- 16
+write$ -- 155
+(There were 2 error messages)
