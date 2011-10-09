@@ -1,0 +1,185 @@
+% This is "sig-alternate.tex" V1.9 April 2009
+% This file should be compiled with V2.4 of "sig-alternate.cls" April 2009
+%
+% This example file demonstrates the use of the 'sig-alternate.cls'
+% V2.4 LaTeX2e document class file. It is for those submitting
+% articles to ACM Conference Proceedings WHO DO NOT WISH TO
+% STRICTLY ADHERE TO THE SIGS (PUBS-BOARD-ENDORSED) STYLE.
+% The 'sig-alternate.cls' file will produce a similar-looking,
+% albeit, 'tighter' paper resulting in, invariably, fewer pages.
+%
+% ----------------------------------------------------------------------------------------------------------------
+% This .tex file (and associated .cls V2.4) produces:
+%       1) The Permission Statement
+%       2) The Conference (location) Info information
+%       3) The Copyright Line with ACM data
+%       4) NO page numbers
+%
+% as against the acm_proc_article-sp.cls file which
+% DOES NOT produce 1) thru' 3) above.
+%
+% Using 'sig-alternate.cls' you have control, however, from within
+% the source .tex file, over both the CopyrightYear
+% (defaulted to 200X) and the ACM Copyright Data
+% (defaulted to X-XXXXX-XX-X/XX/XX).
+% e.g.
+% \CopyrightYear{2007} will cause 2007 to appear in the copyright line.
+% \crdata{0-12345-67-8/90/12} will cause 0-12345-67-8/90/12 to appear in the copyright line.
+%
+% ---------------------------------------------------------------------------------------------------------------
+% This .tex source is an example which *does* use
+% the .bib file (from which the .bbl file % is produced).
+% REMEMBER HOWEVER: After having produced the .bbl file,
+% and prior to final submission, you *NEED* to 'insert'
+% your .bbl file into your source .tex file so as to provide
+% ONE 'self-contained' source file.
+%
+% ================= IF YOU HAVE QUESTIONS =======================
+% Questions regarding the SIGS styles, SIGS policies and
+% procedures, Conferences etc. should be sent to
+% Adrienne Griscti (griscti@acm.org)
+%
+% Technical questions _only_ to
+% Gerald Murray (murray@hq.acm.org)
+% ===============================================================
+%
+% For tracking purposes - this is V1.9 - April 2009
+
+\documentclass{acm_proc_article-sp}
+\usepackage{graphicx}
+
+\begin{document}
+%
+% --- Author Metadata here ---
+%\conferenceinfo{ARM}{'97 El Paso, Texas USA}
+%\CopyrightYear{2007} % Allows default copyright year (20XX) to be over-ridden - IF NEED BE.
+%\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
+% --- End of Author Metadata ---
+
+\title{Reusing Legacy Software in a Self-adaptive Middleware Framework}
+\subtitle{[An Evaluation of OSGi]}
+%\titlenote{A full version of this paper is available as
+%\textit{Author's Guide to Preparing ACM SIG Proceedings Using
+%\LaTeX$2_\epsilon$\ and BibTeX} at
+%\texttt{www.acm.org/eaddress.htm}}}
+
+%
+% You need the command \numberofauthors to handle the 'placement
+% and alignment' of the authors beneath the title.
+%
+% For aesthetic reasons, we recommend 'three authors at a time'
+% i.e. three 'name/affiliation blocks' be placed beneath the title.
+%
+% NOTE: You are NOT restricted in how many 'rows' of
+% "name/affiliations" may appear. We just ask that you restrict
+% the number of 'columns' to three.
+%
+% Because of the available 'opening page real-estate'
+% we ask you to refrain from putting more than six authors
+% (two rows with three columns) beneath the article title.
+% More than six makes the first-page appear very cluttered indeed.
+%
+% Use the \alignauthor commands to handle the names
+% and affiliations for an 'aesthetic maximum' of six authors.
+% Add names, affiliations, addresses for
+% the seventh etc. author(s) as the argument for the
+% \additionalauthors command.
+% These 'additional authors' will be output/set for you
+% without further effort on your part as the last section in
+% the body of your article BEFORE References or any Appendices.
+
+\numberofauthors{3} 
+
+% 4th. author
+%\alignauthor Sabine Moisan\\
+%       \affaddr{INRIA Sophia-Antipolis}\\
+%       \affaddr{2004 Route des Lucioles, BP 93}\\
+%       \email{Sabine.Moisan@inria.fr}
+% 5th. author
+%\alignauthor Jean-Pault Rigault\\
+%      \affaddr{INRIA Sophia-Antipolis}\\
+%       \affaddr{2004 Route des Lucioles, BP 93}\\
+%       \email{jpr@unice.fr}
+
+\author{
+\alignauthor
+Santiago Hurtado\\
+       \affaddr{Universidad el Los Andes}\\
+       \affaddr{Bogota, Colombia}\\
+       \email{santiago.hurtado@gmail.com}\\
+% 2nd. author
+\alignauthor
+Sagar Sen\\
+       \affaddr{ATLANMOD, Ecole des Mines}\\
+       \affaddr{Nantes, France}\\
+       \email{sagarsen@gmail.com}\\
+% 3rd. author
+\alignauthor Ruby Cassalas\\
+        \affaddr{Universidad el Los Andes}\\
+       \affaddr{Bogota, Colombia}\\
+       \email{ruby.cassalas@gmail.com}
+}
+
+
+\maketitle
+\begin{abstract}
+Software that adapts its behavior to an operational context and/or feedback from within is self-adaptive. For instance, a computer vision system to detect people may change its behavior due to change in context such as nightfall. This may entail automatic change in architecture, software components and their parameters at runtime. Legacy software components do not possess this ability. Therefore we ask, can legacy software be successfully cast into a self-adaptive middleware framework ?  We present Tekio, a self-adaptive middleware platform to dynamically compose legacy software behavior. Tekio is based on \emph{dynamic component loading} available in a Java implementation of Open Service Gateway Interface (OSGi). Tekio contains generic components to capture context/feedback, plan an adaptation strategy, and reconfigure domain-specific components. The domain-specific components encapsulate legacy behavior implemented possibly in native languages such as C/C++. We implement a self-adaptive vision system in Tekio as a case study. We perform experiments to validate that the self-adaptive layer based on OSGi has negligible effects on the performance of the legacy software. We also demonstrate that the self-adaptive middleware can handle about 30 adaptations in a span of 2 seconds while producing meaningful output.
+\end{abstract}
+
+% A category with the (minimum) three required fields
+%\category{H.4}{Information Systems Applications}{Miscellaneous}
+%A category including the fourth, optional field follows...
+%\category{D.2.8}{Software Engineering}{Metrics}[complexity measures, performance measures]
+
+
+\keywords{Self-adaptive software, OSGi, legacy software, software reuse}
+
+%-------------------------------------------------------------------------------------------------------------------
+\section{Introduction}
+\label{sec:introduction}
+
+Self-adaptive systems dynamically modify themselves due to contextual changes and feedback from within their own components \cite{Oreizy}. Contextual changes may emanate from monitoring events from the physical environment, running software/hardware components, and detectors of social and lingual boundaries to name a few. Moreover, these software systems continue running  despite user interventions and failures in the underlying software and hardware \cite{Brun2009}. Well known examples of such systems are sites such as Facebook and Google.  Contrary to these modern systems legacy software systems/libraries were not built with continual execution, adaptation to context and fault tolerance in mind. Therefore, a natural question arises: Can we reuse existing legacy libraries as components in a self-adaptive framework where they can be loaded/unloaded/replaced at runtime?
+
+In this paper, we address the challenge of reusing legacy open source libraries in our bare-minimum self-adaptive middleware framework called Tekio. Tekio adheres to the requirements in  \cite{Hallsteinsen2006} for component frameworks to implement dynamic self-adaptive systems. It has the following functionality:(1) Component management that helps define components and the interactions amongst them, (2) Instance Management that permits the component life-cycle to be administered and (3)Self-Adaptation management for context understanding and mapping context to system. Tekio is a implemented in Java. Self-adaptation in Tekio is achieved using \emph{dynamic component loading}  provided by the  OSGi framework specification (formerly known as the Open Services Gateway Initiative). The OSGi framework has applications ranging from mobile applications, IDE, applications servers to software in automobile industries. The OSGi has 136 official members plus several research projects. It has seven implementations such as Eclipse Equinox, Apache felix, Knopflerfish and projects such as JBoss, Glasfish Fuse EXB Eclipse platform and WebSphere. The widely used OSGi provides the basic functionality to create self-adaptive systems. This paper evaluates OSGi as the basis to realize self-adaptive middleware to reuse legacy software such as Tekio.
+
+We use Tekio to build a self-adaptive vision system. This system serves as a case study to evaluate Tekio and OSGi as the middleware platform to reuse legacy open-source libraries. We reuse the OpenCV libraries in software components dynamically managed by Tekio. Tekio components call native code in C/C++ using Java Native Access. We provide number of configurations of these components for adaptation. These configurations achieve tasks such as intrusion detection, face detection, and segmentation. During adaptations we measure frames per second indicating throughput. We also measure the settling time between adaptations. Settling time indicates the time required by Tekio to produce meaningful outputs after adaptation. We perform experiments to demonstrate that Tekio's throughput for a configuration is very close to an identical native implementation despite the self-adaptation layer. The self-adaptive system can demonstrate very low settling times for low and medium resolution input video. For instance, it can provide about 30 adaptations in 2 seconds without significant loss in throughput. However, for high resolution input videos the system cannot adapt is allowed to adapt less frequently to provide meaningful outputs. From these results we incur that managing  self-adaptation requires rigorous empirical analysis and may entail trade-offs.
+
+The paper is organized as follows. In Section \ref{sec:relatedwork}, we present background material. In Section \ref{sec:architecture}, we present Tekio's architecture based on OSGi. In Section \ref{sec:validation}, we validate Tekio. In Section \ref{sec:conclusion}, we conclude.
+
+%\include{introduction}
+\include{relatedwork}
+\include{architecture}
+\include{validation}
+\include{conclusion}
+
+%-------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+%ACKNOWLEDGMENTS are optional
+%\section{Acknowledgments}
+
+%
+% The following two commands are all you need in the
+% initial runs of your .tex file to
+% produce the bibliography for the citations in your paper.
+\bibliographystyle{abbrv}
+\bibliography{arm2011}  % sigproc.bib is the name of the Bibliography in this case
+% You must have a proper ".bib" file
+%  and remember to run:
+% latex bibtex latex latex
+% to resolve all references
+%
+% ACM needs 'a single self-contained file'!
+%
+%APPENDICES are optional
+%\balancecolumns
+%\appendix
+%Appendix A
+\end{document}

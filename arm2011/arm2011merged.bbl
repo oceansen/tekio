@@ -1,0 +1,91 @@
+\begin{thebibliography}{10}
+
+\bibitem{javacv}
+S.~Audet.
+\newblock Java interface to opencv, Aug. 2011.
+
+\bibitem{Brun2009}
+Y.~Brun, G.~{Di Marzo Serugendo}, C.~Gacek, H.~Giese, H.~Kienle, M.~Litoiu,
+  H.~Muller, M.~Pezz\`{e}, and M.~Shaw.
+\newblock {Engineering self-adaptive systems through feedback loops}.
+\newblock {\em Software Engineering for Self-Adaptive Systems}, pages 48--70,
+  2009.
+
+\bibitem{cheng2009}
+B.~Cheng, R.~de~Lemos, H.~Giese, P.~Inverardi, J.~Magee, J.~Andersson,
+  B.~Becker, N.~Bencomo, Y.~Brun, B.~Cukic, and Others.
+\newblock {Software engineering for self-adaptive systems: A research roadmap}.
+\newblock {\em Software Engineering for Self-Adaptive Systems}, pages 1--26,
+  2009.
+
+\bibitem{David2005}
+P.~David and T.~Ledoux.
+\newblock {WildCAT: a generic framework for context-aware applications}.
+\newblock In {\em Proceedings of the 3rd international workshop on Middleware
+  for pervasive and ad-hoc computing}, pages 1--7. ACM, 2005.
+
+\bibitem{Hallsteinsen2006}
+S.~Hallsteinsen, E.~Stav, A.~Solberg, J.~Floch, S.~ICT, and N.~Trondheim.
+\newblock {Using product line techniques to build adaptive systems}.
+\newblock In {\em Software Product Line Conference, 2006 10th International},
+  page~10. Ieee, 2006.
+
+\bibitem{IBM2005}
+IBM.
+\newblock {An architectural blueprint for autonomic computing}.
+\newblock Technical Report June, IBM, 2005.
+
+\bibitem{Morin2009}
+B.~Morin, T.~Ledoux, M.~B. Hassine, F.~Chauvel, O.~Barais, and J.-M. Jezequel.
+\newblock {Unifying Runtime Adaptation and Design Evolution}.
+\newblock {\em 2009 Ninth IEEE International Conference on Computer and
+  Information Technology}, pages 104--109, Oct. 2009.
+
+\bibitem{nain2009}
+G.~Nain, O.~Barais, R.~Fleurquin, and J.-M. J{\'e}z{\'e}quel.
+\newblock Entimid : un middleware aux services de la maison.
+\newblock In {\em 3{\`e}me Conf{\'e}rence Francophone sur les Architectures
+  Logicielles (CAL'O9)}, Nancy, France, Mar. 2009.
+
+\bibitem{Oreizy}
+P.~Oreizy, M.~M. Gorlick, R.~N. Taylor, D.~Heimbigner, G.~Johnson,
+  N.~Medvidovic, A.~Quilici, D.~S. Rosenblum, A.~L. Wolf, S.~Artlcle, and
+  R.~Modifications.
+\newblock {An Architecture-Based Approach to Self-Adaptive Software}.
+\newblock {\em IEEE Intelligent Systems}.
+
+\bibitem{Romero2010}
+I.~Romero, F.~Juan, V.~Chicote, B.~Morin, and O.~Barais.
+\newblock {Using Models@ Runtime for Designing Adaptive Robotics Software: an
+  Experience Report}.
+\newblock {\em Context}, 2010.
+
+\bibitem{Rouvoy2008}
+R.~Rouvoy, M.~Beauvois, L.~Lozano, J.~Lorenzo, and F.~Eliassen.
+\newblock {Music: Middleware Support for Self-Adaptation in Ubiquitous and
+  Service-Oriented Environments}.
+\newblock {\em Proceedings of the 1st workshop on Mobile middleware embracing
+  the personal communication device - MobMid '08}, page~1, 2008.
+
+\bibitem{villegas2011}
+N.~M. Villegas, H.~A. M\"{u}ller, G.~Tamura, L.~Duchien, and R.~Casallas.
+\newblock A framework for evaluating quality-driven self-adaptive software
+  systems.
+\newblock In {\em Proceeding of the 6th international symposium on Software
+  engineering for adaptive and self-managing systems}, SEAMS '11, pages 80--89,
+  New York, NY, USA, 2011. ACM.
+
+\bibitem{garlan2004}
+S.~wen Cheng, A.~cheng Huang, D.~Garlan, B.~Schmerl, and P.~Steenkiste.
+\newblock Rainbow: Architecture-based self-adaptation with reusable
+  infrastructure.
+\newblock {\em IEEE Computer}, 37:46--54, 2004.
+
+\bibitem{Zelinsky2009}
+A.~Zelinsky.
+\newblock {Learning OpenCV---Computer Vision with the OpenCV Library (Bradski,
+  G.R. et al.; 2008)[On the Shelf]}.
+\newblock {\em IEEE Robotics \& Automation Magazine}, 16(3):100--100, Sept.
+  2009.
+
+\end{thebibliography}
